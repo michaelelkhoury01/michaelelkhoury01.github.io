@@ -2784,10 +2784,6 @@ footer.major {
 }
 
 @media screen and (max-width: 736px) {
-  header.major {
-    margin-bottom: 0;
-  }
-
   header.major h2 {
     font-size: 1.5em;
   }
@@ -3307,7 +3303,7 @@ body.is-preload #header.alt .logo {
   position: absolute;
   width: 64em;
   max-width: calc(70% - 4em);
-  padding: .5em;
+  padding: 0.5em;
   background-color: #282c34;
   border-top-left-radius: 0.75em;
   border-top-right-radius: 0.75em;
@@ -3429,7 +3425,7 @@ body.is-preload #header.alt .logo {
 }
 
 .main a:hover {
-  color: orange!important;
+  color: orange !important;
   text-decoration: underline;
 }
 
