@@ -3842,6 +3842,15 @@ body.is-preload #header.alt .logo {
   .statistics li:hover {
     transform: none;
   }
+
+  section {
+    text-align: center;
+  }
+
+  #main .button {
+    max-width: max-content;
+  }
+
   #footer {
     padding: 3em 2em 1em 2em;
   }
