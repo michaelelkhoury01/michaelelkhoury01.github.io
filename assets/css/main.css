@@ -2747,6 +2747,7 @@ header.major {
 
 header.major h2 {
   font-size: 2.7rem;
+  font-weight: 400;
 }
 
 header.major h2:after {
@@ -3172,7 +3173,7 @@ table.alt tbody tr td {
 }
 
 #header p {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   letter-spacing: -0.025em;
 }
 
