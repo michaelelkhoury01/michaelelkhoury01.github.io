@@ -3177,7 +3177,7 @@ table.alt tbody tr td {
 }
 
 #header.alt {
-  padding: 3em;
+  padding: 3em 3em 1.5em;
 }
 
 #header.alt h1 {
@@ -3306,7 +3306,7 @@ body.is-preload #header.alt .logo {
   position: absolute;
   width: 64em;
   max-width: calc(70% - 4em);
-  padding: 1em;
+  padding: .5em;
   background-color: #282c34;
   border-top-left-radius: 0.75em;
   border-top-right-radius: 0.75em;
@@ -3422,6 +3422,15 @@ body.is-preload #header.alt .logo {
 }
 
 /* Main */
+
+.main a {
+  border-bottom: none;
+}
+
+.main a:hover {
+  color: orange!important;
+  text-decoration: underline;
+}
 
 #main {
   background-color: #343b44;
