@@ -3835,6 +3835,13 @@ body.is-preload #header.alt .logo {
 }
 
 @media screen and (max-width: 736px) {
+  #intro .image img {
+    width: 100%;
+  }
+
+  .statistics li:hover {
+    transform: none;
+  }
   #footer {
     padding: 3em 2em 1em 2em;
   }
